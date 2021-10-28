@@ -10,8 +10,9 @@ function App() {
 
     return (
         <div className={`container ${theme}`}>
-            <h1>The theme is <SayTheme themeName={theme} /></h1>
 
+            <h1>The theme is <SayTheme themeName={theme} /></h1>
+            
             <div>
                 <input type="button" className="btn black" onClick={() => handleClick('black')}/>
             <input type="button" className="btn blue"  onClick={() => handleClick('blue')}/>
